@@ -136,6 +136,41 @@ After installing, try these in Claude Code:
 
 ---
 
+## How the team works together
+
+Skills share their work through a **`company/` folder** in your project, so each one builds on the others instead of starting from nothing.
+
+```
+company/
+├── profile.md      # what the business is, who it serves, key numbers (every skill reads this)
+├── validation.md   # startup-validator: score, verdict, experiments
+├── pricing.md      # pricing-strategist: value metric, tiers, test plan
+├── finance.md      # cfo-agent: runway, margins, recommendation
+├── decisions.md    # decision log
+├── weekly/         # solo-founder-os: weekly plans and scoreboards
+└── plan-*.md       # agent-team-orchestrator: integrated plans
+```
+
+**The fastest way to start:**
+
+```
+"Use agent-team-orchestrator to take my idea from validation to launch: <your idea>"
+```
+
+It runs `startup-validator` → `pricing-strategist` → `cfo-agent` → `cmo-agent` → `launch-war-room`, passing results between them, and gives you one plan with owners and dates.
+
+**Flagship skills** (the most detailed, start here):
+
+| Skill | What you get |
+|---|---|
+| `startup-validator` | A 0–100 weighted score, a GO / PIVOT / KILL verdict, the 3 riskiest assumptions and cheap experiments with pass/kill thresholds |
+| `pricing-strategist` | A value metric, a price range from cost floor, competitors and value ceiling, good/better/best tiers and a pricing A/B test plan |
+| `cfo-agent` | Runway, gross margin, burn multiple, LTV:CAC, CAC payback, "default alive" check and one ranked capital-allocation call |
+| `solo-founder-os` | A weekly scoreboard, an exec check-in across all 7 seats, ONE goal with 3 priorities, and routing to the right skill |
+| `agent-team-orchestrator` | Picks and runs a chain of skills, resolves conflicts between seats and merges everything into one dated action plan |
+
+---
+
 ## Use cases
 
 - **Startup idea validation:** test demand, competition and willingness to pay before you build.
