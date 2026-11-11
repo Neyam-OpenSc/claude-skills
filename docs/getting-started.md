@@ -1,0 +1,31 @@
+# Getting Started
+
+## What is a skill?
+
+A skill is a `SKILL.md` file in `~/.claude/skills/<name>/`. Claude reads it when your request matches its `description`, then adopts its role, workflow, and output format.
+
+## Install one skill
+
+```bash
+mkdir -p ~/.claude/skills
+cp -r skills/02-finance/unit-economics-expert ~/.claude/skills/
+```
+
+Restart Claude (or start a new session), then say:
+
+> "Compute my unit economics: $400 CAC, $29/mo plan, 4% monthly churn, 80% gross margin."
+
+Claude activates the skill and runs its workflow.
+
+## Install everything
+
+```bash
+bash install/install.sh        # macOS / Linux
+powershell -ExecutionPolicy Bypass -File install/install.ps1   # Windows
+```
+
+## Tips
+
+- **Be specific about the seat:** "As CFO, review my runway" beats "help with money".
+- **Feed real numbers:** these skills are only as good as the data you give them.
+- **Chain them:** see the [Team Playbook](team-playbook.md).
