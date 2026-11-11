@@ -228,6 +228,16 @@ PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Add your skill under th
 
 ---
 
+## Data and privacy
+
+- **No code, no connectors, no network calls.** The plugin is only Markdown instructions (`SKILL.md` files), manifests and images. It has no MCP servers, scripts or API keys.
+- **Nothing leaves your machine because of this plugin.** No skill sends data to any outside service, and there is no service that receives or keeps data.
+- **Local files only.** Skills may ask Claude to write notes to a `company/` folder in your own project (for example `profile.md`, `pricing.md`, `finance.md`). Those files stay in your project, under your control, and you can delete them at any time.
+- **Web search is optional.** Some skills ask Claude to cite sources *if* your Claude setup already has web search turned on. That uses Claude's own built-in tool, not a service added by this plugin.
+- **Not for users under 18.** It is built for founders and businesses.
+
+---
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
