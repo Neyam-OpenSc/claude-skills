@@ -101,8 +101,7 @@ New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
 Copy-Item -Path claude-skills-executive-suite\skills\*\* -Destination "$HOME\.claude\skills" -Recurse -Force
 ```
 
-**One skill only:** copy a single folder from `skills/<category>/` into `~/.claude/skills/`. The `install/` folder also has installer scripts, which you can read and run yourself (see [Getting Started](docs/getting-started.md)).
-
+**One skill only:** copy a single folder from `skills/<category>/` into `~/.claude/skills/`.
 **Team install:** copy skills into `.claude/skills/` inside your project repo and commit them, so everyone on the team gets the same skills.
 
 **Claude.ai / Claude API:** open any `SKILL.md`, then paste its contents into a **Claude Project's custom instructions** or pass it as the **system prompt**.
@@ -189,8 +188,8 @@ It runs `startup-validator` → `pricing-strategist` → `cfo-agent` → `cmo-ag
 ```
 skills/<category>/<skill-name>/SKILL.md   # one folder per Claude skill
 docs/                                      # guides and playbooks
-install/                                   # one-command installers (bash + PowerShell)
-assets/                                    # banner and demos
+assets/                                    # banner
+.claude-plugin/                            # plugin + marketplace manifests, icon
 ```
 
 ---

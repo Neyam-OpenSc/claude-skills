@@ -9,8 +9,8 @@
 ### Changed
 - Rewrote all 55 skill descriptions and trigger phrases so skills load when they should
 
-### Fixed
-- Installers no longer create nested skill folders when re-run
+### Removed
+- `install/` scripts. Install with the plugin, or copy the skill folders (see README)
 
 ## [1.0.0] - 2026-11-11
 ### Added

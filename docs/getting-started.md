@@ -29,11 +29,20 @@ Restart Claude (or start a new session), then say:
 
 Claude activates the skill and runs its workflow.
 
-## Install everything
+## Install everything without the plugin
+
+Copy all skill folders (plain `/cfo-agent` names). Run the same commands again later to update.
 
 ```bash
-bash install/install.sh        # macOS / Linux
-powershell -ExecutionPolicy Bypass -File install/install.ps1   # Windows
+# macOS / Linux, from the cloned repo
+mkdir -p ~/.claude/skills
+cp -R skills/*/* ~/.claude/skills/
+```
+
+```powershell
+# Windows PowerShell, from the cloned repo
+New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
+Copy-Item -Path skills\*\* -Destination "$HOME\.claude\skills" -Recurse -Force
 ```
 
 ## Tips
