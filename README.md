@@ -236,6 +236,8 @@ PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Add your skill under th
 - **Web search is optional.** Some skills ask Claude to cite sources *if* your Claude setup already has web search turned on. That uses Claude's own built-in tool, not a service added by this plugin.
 - **Not for users under 18.** It is built for founders and businesses.
 
+Full policy: [PRIVACY.md](PRIVACY.md).
+
 ---
 
 ## License
