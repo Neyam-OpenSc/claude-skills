@@ -4,8 +4,8 @@
   "version": "1.1.0",
   "description": "55 Claude skills that act as your AI executive team: CEO, CFO, CTO, CMO, COO, CPO, CSO and Chief of Staff, plus orchestration skills for solo founders and startups.",
   "author": { "name": "Neyam-OpenSc", "url": "https://github.com/Neyam-OpenSc" },
-  "homepage": "https://github.com/Neyam-OpenSc/claude-skills",
-  "repository": "https://github.com/Neyam-OpenSc/claude-skills",
+  "homepage": "https://github.com/Neyam-OpenSc/claude-skills-executive-suite",
+  "repository": "https://github.com/Neyam-OpenSc/claude-skills-executive-suite",
   "license": "MIT",
   "keywords": ["claude-skills", "startup", "founder", "ceo", "cfo", "cto", "cmo", "business-strategy", "ai-agents"],
   "skills": [

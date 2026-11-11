@@ -2,7 +2,7 @@
 
 ## [1.1.0] - 2026-11-11
 ### Added
-- Claude Code plugin marketplace: install with `/plugin install executive-suite --marketplace Neyam-OpenSc/claude-skills`
+- Claude Code plugin marketplace: install with `/plugin install executive-suite --marketplace Neyam-OpenSc/claude-skills-executive-suite`
 - Shared `company/` workspace so skills read and build on each other's output
 - Detailed rewrites of 5 flagship skills: `startup-validator`, `pricing-strategist`, `cfo-agent`, `solo-founder-os`, `agent-team-orchestrator`
 

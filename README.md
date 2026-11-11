@@ -61,14 +61,14 @@ Each skill is a self-contained `SKILL.md` file with YAML frontmatter (`name`, `d
 In Claude Code, run:
 
 ```
-/plugin install executive-suite --marketplace Neyam-OpenSc/claude-skills
+/plugin install executive-suite --marketplace Neyam-OpenSc/claude-skills-executive-suite
 ```
 
 On older versions of Claude Code, use two steps instead:
 
 ```
-/plugin marketplace add Neyam-OpenSc/claude-skills
-/plugin install executive-suite@claude-skills
+/plugin marketplace add Neyam-OpenSc/claude-skills-executive-suite
+/plugin install executive-suite@claude-skills-executive-suite
 ```
 
 You get all 55 skills, and `/plugin update` keeps them current. Plugin skills are namespaced, so they appear as `/executive-suite:cfo-agent`, `/executive-suite:startup-validator` and so on. You can also just describe what you need, and Claude loads the right skill automatically.
@@ -78,7 +78,7 @@ You get all 55 skills, and `/plugin update` keeps them current. Plugin skills ar
 Paste this into Claude Code:
 
 ```
-https://github.com/Neyam-OpenSc/claude-skills
+https://github.com/Neyam-OpenSc/claude-skills-executive-suite
 
 install skill
 ```
@@ -89,15 +89,15 @@ The installers copy every skill into `~/.claude/skills/` (set `CLAUDE_SKILLS_DIR
 
 **macOS / Linux:**
 ```bash
-git clone https://github.com/Neyam-OpenSc/claude-skills.git
-cd claude-skills
+git clone https://github.com/Neyam-OpenSc/claude-skills-executive-suite.git
+cd claude-skills-executive-suite
 bash install/install.sh
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/Neyam-OpenSc/claude-skills.git
-cd claude-skills
+git clone https://github.com/Neyam-OpenSc/claude-skills-executive-suite.git
+cd claude-skills-executive-suite
 powershell -ExecutionPolicy Bypass -File install/install.ps1
 ```
 

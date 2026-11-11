@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-skills",
+  "name": "claude-skills-executive-suite",
   "description": "Claude Executive Suite: an AI executive team of 55 Claude skills for founders and startups.",
   "owner": { "name": "Neyam-OpenSc", "url": "https://github.com/Neyam-OpenSc" },
   "plugins": [
