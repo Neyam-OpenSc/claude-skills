@@ -1,79 +1,86 @@
-# claude-skills
+# 🏢 Claude Executive Suite
 
-A collection of prompts and skills for Claude.
+**55 production-ready Claude Skills that turn Claude into your entire virtual executive team** — CEO, CFO, CTO, CMO, COO, CPO, CSO, Chief of Staff, plus a meta-orchestration layer for solo founders.
 
-## Contents
+![banner](assets/banner.svg)
 
-| File | What it does |
-|------|--------------|
-| [`ceo.md`](ceo.md) | **CEO Deep Research Mode**: makes Claude act as a CEO and strategic research lead. It evaluates any software, tool, or strategy through a 4-pillar framework (Business & Financial, Technical, User Adoption, Competitive Positioning) and answers in an executive-ready BLUF format. |
+## Why
 
-## How to use `ceo.md`
+You don't need 50 disconnected prompts. You need a **team**: specialists who each do one job excellently, coordinated by an orchestration layer. This repo gives you both.
 
-### Option 1: Claude.ai (chat)
+## The AI Executive Team
 
-1. Open [claude.ai](https://claude.ai) and start a new chat.
-2. Paste the full contents of `ceo.md` as your first message.
-3. Then ask your question, for example:
-   > Should we migrate our analytics stack from Mixpanel to PostHog?
+| Seat | Skill(s) | Function |
+|---|---|---|
+| 👔 CEO | `ceo-advisor`, `decision-architect`, `chief-strategy-officer` | Direction & hard calls |
+| 📋 Chief of Staff | `chief-of-staff`, `solo-founder-os`, `agent-team-orchestrator` | Coordination & execution |
+| 💰 CFO | `cfo-agent`, `unit-economics-expert`, `cash-flow-manager`, ... | Money & survival |
+| 💻 CTO | `cto-agent`, `ai-product-architect`, `security-auditor`, ... | Technology |
+| 📣 CMO | `cmo-agent`, `growth-hacker`, `cro-optimizer`, ... | Growth |
+| ⚙️ COO | `coo-operator`, `business-automation-architect`, `crisis-management-officer` | Operations |
+| 📦 CPO | `product-manager`, `ux-researcher`, `startup-validator` | Product |
+| 🤝 CSO | `sales-director`, `customer-success-manager`, `negotiation-expert` | Revenue & customers |
 
-To keep it on for every chat, create a **Project** and paste `ceo.md` into the project's **custom instructions**. Every conversation in that project will then use CEO mode automatically.
+## Install
 
-### Option 2: Claude Code (as a skill)
-
-Turn the prompt into a reusable skill that Claude Code loads when it's relevant:
-
+**macOS / Linux:**
 ```bash
-# Personal skill (available in every project)
-mkdir -p ~/.claude/skills/ceo-research
+git clone https://github.com/YOUR_USERNAME/claude-executive-suite.git
+cd claude-executive-suite
+bash install/install.sh
 ```
 
-Create `~/.claude/skills/ceo-research/SKILL.md` with a short frontmatter header followed by the contents of `ceo.md`:
-
-```markdown
----
-name: ceo-research
-description: CEO-level deep research and strategic evaluation of software, tools, vendors, or technology strategy using a 4-pillar framework with a BLUF executive summary.
----
-
-<paste the contents of ceo.md here>
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/YOUR_USERNAME/claude-executive-suite.git
+cd claude-executive-suite
+powershell -ExecutionPolicy Bypass -File install/install.ps1
 ```
 
-Then in Claude Code, either ask a strategy question naturally ("Evaluate Supabase vs Firebase for our startup") or invoke it directly with `/ceo-research`.
+Or manually: copy any folder from `skills/` into `~/.claude/skills/`.
 
-> To share it with a team, put the skill in the repo at `.claude/skills/ceo-research/SKILL.md` instead and commit it.
+## Quick start
 
-### Option 3: Claude API (system prompt)
+Try these one-liners after install:
 
-Pass the file contents as the `system` prompt:
-
-```python
-import anthropic
-from pathlib import Path
-
-client = anthropic.Anthropic()
-system_prompt = Path("ceo.md").read_text(encoding="utf-8")
-
-response = client.messages.create(
-    model="claude-opus-5-5",
-    max_tokens=4096,
-    system=system_prompt,
-    messages=[{"role": "user", "content": "Evaluate Snowflake vs Databricks for a mid-size fintech."}],
-)
-print(response.content[0].text)
+```
+"Use startup-validator on my idea: an AI meal planner for gym beginners"
+"Run launch-war-room for my SaaS launching next Monday"
+"As solo-founder-os, plan my week: fix churn, ship v2, close 2 deals"
 ```
 
-## What you get back
+## Skill catalog
 
-Every answer in CEO mode follows this structure:
+| Category | Count | Folder |
+|---|---|---|
+| Executive Leadership | 10 | `skills/01-executive-leadership/` |
+| Finance & BI | 10 | `skills/02-finance/` |
+| Marketing & Growth | 10 | `skills/03-marketing-growth/` |
+| Product & Technology | 10 | `skills/04-product-technology/` |
+| Sales & Operations | 10 | `skills/05-sales-operations/` |
+| Meta-Orchestration ⭐ | 5 | `skills/06-meta-orchestration/` |
 
-1. **Executive Summary (BLUF)**: the recommendation in 1–2 sentences
-2. **Strategic Context**: why it matters now
-3. **Deep Dive Analysis**: business impact, technical viability, user reality, competitive landscape
-4. **Actionable Next Steps**: 2–3 actions with suggested owners
-5. **Risk & Mitigation**: the biggest threat and how to get ahead of it
+**Build first:** `solo-founder-os`, `startup-validator`, `agent-team-orchestrator`, `ai-product-architect`, `pricing-strategist`.
 
-## Tips
+## Repo layout
 
-- Give context such as company size, budget, current stack, and goals. The prompt tells Claude to ask 1–2 clarifying questions when key data is missing.
-- Results are best with web search enabled (Claude.ai research or tools), because the prompt asks Claude to cross-check vendor claims against reviews and market data.
+```
+skills/<category>/<skill-name>/SKILL.md   # one folder per skill
+docs/                                      # guides & playbooks
+install/                                   # one-command installers
+assets/                                    # banner & demos
+```
+
+## Docs
+
+- [Getting Started](docs/getting-started.md)
+- [Team Playbook — chaining skills](docs/team-playbook.md)
+- [Authoring Guide — add your own skill](docs/skill-authoring-guide.md)
+
+## Contributing
+
+PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md). Add your skill under the right `skills/` category following the [authoring guide](docs/skill-authoring-guide.md).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
