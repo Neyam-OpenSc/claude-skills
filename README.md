@@ -56,7 +56,36 @@ Each skill is a self-contained `SKILL.md` file with YAML frontmatter (`name`, `d
 
 ## Install Claude skills
 
-The installers copy every skill into `~/.claude/skills/` (set `CLAUDE_SKILLS_DIR` to change the location).
+### Option 1: Claude Code plugin marketplace (recommended, one command)
+
+In Claude Code, run:
+
+```
+/plugin install executive-suite --marketplace Neyam-OpenSc/claude-skills
+```
+
+On older versions of Claude Code, use two steps instead:
+
+```
+/plugin marketplace add Neyam-OpenSc/claude-skills
+/plugin install executive-suite@claude-skills
+```
+
+You get all 55 skills, and `/plugin update` keeps them current. Plugin skills are namespaced, so they appear as `/executive-suite:cfo-agent`, `/executive-suite:startup-validator` and so on. You can also just describe what you need, and Claude loads the right skill automatically.
+
+### Option 2: Ask Claude to install it
+
+Paste this into Claude Code:
+
+```
+https://github.com/Neyam-OpenSc/claude-skills
+
+install skill
+```
+
+### Option 3: Install script (plain `/cfo-agent` names, no namespace)
+
+The installers copy every skill into `~/.claude/skills/` (set `CLAUDE_SKILLS_DIR` to change the location). They're safe to re-run to update.
 
 **macOS / Linux:**
 ```bash

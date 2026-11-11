@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-skills",
+  "description": "Claude Executive Suite: an AI executive team of 55 Claude skills for founders and startups.",
+  "owner": { "name": "Neyam-OpenSc", "url": "https://github.com/Neyam-OpenSc" },
+  "plugins": [
+    {
+      "name": "executive-suite",
+      "source": "./",
+      "description": "55 Claude skills that act as your AI executive team: CEO, CFO, CTO, CMO, COO, CPO, CSO and Chief of Staff, plus orchestration skills for solo founders.",
+      "version": "1.1.0",
+      "category": "productivity",
+      "tags": ["startup", "founder", "business", "strategy", "finance", "marketing"]
+    }
+  ]
+}

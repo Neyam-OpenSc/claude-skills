@@ -4,6 +4,18 @@
 
 A skill is a `SKILL.md` file in `~/.claude/skills/<name>/`. Claude reads it when your request matches its `description`, then adopts its role, workflow, and output format.
 
+## Install everything as a plugin (recommended)
+
+In Claude Code:
+
+```
+/plugin install executive-suite --marketplace Neyam-OpenSc/claude-skills
+```
+
+On older Claude Code versions: `/plugin marketplace add Neyam-OpenSc/claude-skills`, then `/plugin install executive-suite@claude-skills`.
+
+Skills then run as `/executive-suite:<skill-name>`, or load automatically when your request matches them.
+
 ## Install one skill
 
 ```bash
