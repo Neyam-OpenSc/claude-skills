@@ -6,18 +6,18 @@ A collection of prompts and skills for Claude.
 
 | File | What it does |
 |------|--------------|
-| [`ceo.txt`](ceo.txt) | **CEO Deep Research Mode**: makes Claude act as a CEO and strategic research lead. It evaluates any software, tool, or strategy through a 4-pillar framework (Business & Financial, Technical, User Adoption, Competitive Positioning) and answers in an executive-ready BLUF format. |
+| [`ceo.md`](ceo.md) | **CEO Deep Research Mode**: makes Claude act as a CEO and strategic research lead. It evaluates any software, tool, or strategy through a 4-pillar framework (Business & Financial, Technical, User Adoption, Competitive Positioning) and answers in an executive-ready BLUF format. |
 
-## How to use `ceo.txt`
+## How to use `ceo.md`
 
 ### Option 1: Claude.ai (chat)
 
 1. Open [claude.ai](https://claude.ai) and start a new chat.
-2. Paste the full contents of `ceo.txt` as your first message.
+2. Paste the full contents of `ceo.md` as your first message.
 3. Then ask your question, for example:
    > Should we migrate our analytics stack from Mixpanel to PostHog?
 
-To keep it on for every chat, create a **Project** and paste `ceo.txt` into the project's **custom instructions**. Every conversation in that project will then use CEO mode automatically.
+To keep it on for every chat, create a **Project** and paste `ceo.md` into the project's **custom instructions**. Every conversation in that project will then use CEO mode automatically.
 
 ### Option 2: Claude Code (as a skill)
 
@@ -28,7 +28,7 @@ Turn the prompt into a reusable skill that Claude Code loads when it's relevant:
 mkdir -p ~/.claude/skills/ceo-research
 ```
 
-Create `~/.claude/skills/ceo-research/SKILL.md` with a short frontmatter header followed by the contents of `ceo.txt`:
+Create `~/.claude/skills/ceo-research/SKILL.md` with a short frontmatter header followed by the contents of `ceo.md`:
 
 ```markdown
 ---
@@ -36,7 +36,7 @@ name: ceo-research
 description: CEO-level deep research and strategic evaluation of software, tools, vendors, or technology strategy using a 4-pillar framework with a BLUF executive summary.
 ---
 
-<paste the contents of ceo.txt here>
+<paste the contents of ceo.md here>
 ```
 
 Then in Claude Code, either ask a strategy question naturally ("Evaluate Supabase vs Firebase for our startup") or invoke it directly with `/ceo-research`.
@@ -52,7 +52,7 @@ import anthropic
 from pathlib import Path
 
 client = anthropic.Anthropic()
-system_prompt = Path("ceo.txt").read_text(encoding="utf-8")
+system_prompt = Path("ceo.md").read_text(encoding="utf-8")
 
 response = client.messages.create(
     model="claude-opus-5-5",
