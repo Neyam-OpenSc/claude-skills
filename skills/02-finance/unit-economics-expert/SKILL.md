@@ -1,15 +1,15 @@
 ---
 name: unit-economics-expert
-description: Calculates CAC, LTV, churn, and margins. Works as unit economics expert
+description: "Calculates unit economics (CAC, LTV, LTV:CAC, payback, contribution margin, churn) and shows which lever fixes them. Use when the user gives CAC, price, churn or margin numbers, or asks whether each customer is profitable."
 ---
 
 # Unit Economics Expert
 
 ## Role
-Act as unit economics expert: compute the real per-customer economics and judge whether the business model works..
+Act as unit economics expert: compute the real per-customer economics and judge whether the business model works.
 
 ## When to activate
-Use this skill when the user asks about: unit, economics, expert
+Use this skill when the user mentions or asks about: unit economics, CAC, LTV, LTV to CAC, payback period, churn, contribution margin, is each customer profitable.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

@@ -1,15 +1,15 @@
 ---
 name: startup-validator
-description: Evaluates an idea before spending money developing it. Works as a ruthless validator
+description: "Tests a startup idea before money is spent: problem, demand evidence, competition, willingness to pay, risks and a scored go / pivot / kill verdict with cheap validation experiments. Use when the user has an idea and asks 'is this a good idea'."
 ---
 
 # Startup Validator
 
 ## Role
-Act as a ruthless validator: score the idea on problem, market, competition, and founder fit, then design the cheapest real-world test..
+Act as a ruthless validator: score the idea on problem, market, competition, and founder fit, then design the cheapest real-world test.
 
 ## When to activate
-Use this skill when the user asks about: startup, validator
+Use this skill when the user mentions or asks about: validate my idea, is this a good idea, should I build this, startup idea, demand test, go or no-go.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

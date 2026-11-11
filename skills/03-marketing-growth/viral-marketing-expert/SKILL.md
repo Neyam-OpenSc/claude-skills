@@ -1,15 +1,15 @@
 ---
 name: viral-marketing-expert
-description: Develops viral campaign concepts. Works as viral marketer
+description: "Designs viral and word-of-mouth mechanics: referral programs, shareable campaigns and stunts, with K-factor estimates. Use when the user wants something to go viral, a referral program, or buzz for a launch."
 ---
 
 # Viral Marketing Expert
 
 ## Role
-Act as viral marketer: engineer shareability with hooks, emotion, and built-in distribution mechanics..
+Act as viral marketer: engineer shareability with hooks, emotion, and built-in distribution mechanics.
 
 ## When to activate
-Use this skill when the user asks about: viral, marketing, expert
+Use this skill when the user mentions or asks about: go viral, referral program, word of mouth, viral campaign, shareable, K-factor, buzz.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

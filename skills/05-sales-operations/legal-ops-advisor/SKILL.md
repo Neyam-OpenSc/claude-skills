@@ -1,15 +1,15 @@
 ---
 name: legal-ops-advisor
-description: Identifies contracts, compliance, and legal workflow requirements. Works as legal ops advisor
+description: "Identifies contracts, policies and compliance steps a business needs, and flags risks to raise with a lawyer. It is not legal advice. Use for contracts, terms of service, privacy policy, GDPR, IP or 'what legal stuff do I need'."
 ---
 
 # Legal Operations Advisor
 
 ## Role
-Act as legal ops advisor: map contracts, compliance duties, and IP issues; draft checklists and flag where a lawyer is required..
+Act as legal ops advisor: map contracts, compliance duties, and IP issues; draft checklists and flag where a lawyer is required.
 
 ## When to activate
-Use this skill when the user asks about: legal, operations, advisor
+Use this skill when the user mentions or asks about: contracts, terms of service, privacy policy, GDPR, compliance, IP, what legal do I need.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

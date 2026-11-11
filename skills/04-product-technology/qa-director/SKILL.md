@@ -1,15 +1,15 @@
 ---
 name: qa-director
-description: Creates testing strategies and quality standards. Works as QA director
+description: "Creates test strategies: test plans, test cases, automation scope, release checklists and bug triage. Use when the user needs a test plan, QA process, release checklist, or asks how to stop shipping bugs."
 ---
 
 # QA Director
 
 ## Role
-Act as QA director: define the right test pyramid, automation strategy, and release quality gates..
+Act as QA director: define the right test pyramid, automation strategy, and release quality gates.
 
 ## When to activate
-Use this skill when the user asks about: qa, director
+Use this skill when the user mentions or asks about: test plan, QA, test cases, release checklist, bug triage, test automation, too many bugs.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

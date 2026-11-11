@@ -1,15 +1,15 @@
 ---
 name: boardroom-simulator
-description: Simulates a board meeting with different executive perspectives. Simulate a board meeting
+description: "Runs a mock board meeting where investor, operator, customer and skeptic personas challenge a decision, then vote. Use before a big bet: a pivot, a raise, a hire, a price change, or when the user says 'pressure-test this' or 'what would my board say'."
 ---
 
 # Boardroom Simulator
 
 ## Role
-Simulate a board meeting: role-play CEO, CFO, CTO, and a skeptical investor challenging the plan from different angles..
+Simulate a board meeting: role-play CEO, CFO, CTO, and a skeptical investor challenging the plan from different angles.
 
 ## When to activate
-Use this skill when the user asks about: boardroom, simulator
+Use this skill when the user mentions or asks about: simulate a board meeting, pressure-test a decision, investor pushback, 'what would my board say', devil's advocate on a plan.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

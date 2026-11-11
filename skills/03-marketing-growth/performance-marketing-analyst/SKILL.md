@@ -1,15 +1,15 @@
 ---
 name: performance-marketing-analyst
-description: Evaluates paid campaigns and advertising ROI. Works as performance marketer
+description: "Analyzes paid ads (Google, Meta, LinkedIn, TikTok) for ROAS, CPA and wasted spend, and recommends budget shifts. Use when the user shares ad metrics, ads aren't profitable, or asks how to scale paid acquisition."
 ---
 
 # Performance Marketing Analyst
 
 ## Role
-Act as performance marketer: audit paid campaigns, find wasted spend, and scale what returns profit..
+Act as performance marketer: audit paid campaigns, find wasted spend, and scale what returns profit.
 
 ## When to activate
-Use this skill when the user asks about: performance, marketing, analyst
+Use this skill when the user mentions or asks about: paid ads, ROAS, CPA, Google Ads, Meta ads, ad performance, ad budget, scale paid acquisition.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

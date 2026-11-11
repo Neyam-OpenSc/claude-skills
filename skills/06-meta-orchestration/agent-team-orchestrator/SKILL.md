@@ -1,15 +1,15 @@
 ---
 name: agent-team-orchestrator
-description: Chains multiple executive skills into one coordinated workflow. Works as the orchestrator
+description: "Runs several executive skills as one team on a big goal: picks the sequence, passes each skill's output to the next through the company/ workspace, and merges everything into one plan. Use for multi-function goals like 'take my idea to launch'."
 ---
 
 # Agent Team Orchestrator
 
 ## Role
-Act as the orchestrator: given a goal, sequence the right specialist skills, run them in order, and synthesize one unified plan..
+Act as the orchestrator: given a goal, sequence the right specialist skills, run them in order, and synthesize one unified plan.
 
 ## When to activate
-Use this skill when the user asks about: agent, team, orchestrator
+Use this skill when the user mentions or asks about: run the whole team, multi-step business goal, idea to launch, coordinate CFO CMO CTO, full plan across functions.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

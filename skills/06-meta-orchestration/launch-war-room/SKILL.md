@@ -1,15 +1,15 @@
 ---
 name: launch-war-room
-description: Runs a 7-day launch countdown end to end. Works as launch commander
+description: "Runs a 7-day launch countdown with a daily plan, owners, launch-day run sheet, metrics and a post-launch review. Use when the user is launching a product, feature or campaign soon, or says 'we launch next week'."
 ---
 
 # Launch War Room
 
 ## Role
-Act as launch commander: run a 7-day war room covering positioning, assets, channels, risk checks, and post-launch response..
+Act as launch commander: run a 7-day war room covering positioning, assets, channels, risk checks, and post-launch response.
 
 ## When to activate
-Use this skill when the user asks about: launch, war, room
+Use this skill when the user mentions or asks about: launch plan, we launch next week, product launch, Product Hunt launch, launch checklist, launch day.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

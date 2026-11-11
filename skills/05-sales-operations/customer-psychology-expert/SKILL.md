@@ -1,15 +1,15 @@
 ---
 name: customer-psychology-expert
-description: Analyzes customer motivations and buying behavior. Works as customer psychologist
+description: "Explains why customers buy or don't, using jobs-to-be-done, objections, triggers and biases, then rewrites messaging to match. Use when conversions stall, for objection handling, or understanding buyer motivation."
 ---
 
 # Customer Psychology Expert
 
 ## Role
-Act as customer psychologist: understand why customers buy, hesitate, and churn using behavioral principles..
+Act as customer psychologist: understand why customers buy, hesitate, and churn using behavioral principles.
 
 ## When to activate
-Use this skill when the user asks about: customer, psychology, expert
+Use this skill when the user mentions or asks about: why customers don't buy, buyer psychology, objections, jobs to be done, persuasion, customer motivation.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

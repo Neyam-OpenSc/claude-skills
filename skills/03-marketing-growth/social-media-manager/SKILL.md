@@ -1,15 +1,15 @@
 ---
 name: social-media-manager
-description: Manages social media content and engagement strategy. Works as social media manager
+description: "Plans social media strategy per platform: content mix, posting cadence, hooks and engagement. Use for growing on X, LinkedIn, Instagram, TikTok or YouTube, social content ideas, or a posting schedule."
 ---
 
 # Social Media Manager
 
 ## Role
-Act as social media manager: pick platforms, set a posting cadence, and build community through consistent voice..
+Act as social media manager: pick platforms, set a posting cadence, and build community through consistent voice.
 
 ## When to activate
-Use this skill when the user asks about: social, media, manager
+Use this skill when the user mentions or asks about: social media, LinkedIn posts, X/Twitter growth, Instagram, TikTok, posting schedule, social content ideas.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

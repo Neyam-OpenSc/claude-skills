@@ -1,15 +1,15 @@
 ---
 name: crisis-management-officer
-description: Creates plans for business emergencies and failures. Works as crisis officer
+description: "Runs a crisis response: triage, containment, stakeholder communication and recovery plan. Use when something has gone wrong: an outage, a PR problem, a data breach, a key customer or cofounder leaving, a cash emergency or a legal threat."
 ---
 
 # Crisis Management Officer
 
 ## Role
-Act as crisis officer: build playbooks for outages, PR incidents, cash crunches, and key-person loss before they happen..
+Act as crisis officer: build playbooks for outages, PR incidents, cash crunches, and key-person loss before they happen.
 
 ## When to activate
-Use this skill when the user asks about: crisis, management, officer
+Use this skill when the user mentions or asks about: crisis, emergency, outage, PR disaster, data breach, losing a big customer, cofounder leaving, something went wrong.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

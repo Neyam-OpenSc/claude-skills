@@ -1,15 +1,15 @@
 ---
 name: brand-strategist
-description: Creates brand identity and positioning. Works as brand strategist
+description: "Defines brand positioning, promise, personality, voice and messaging pillars. Use when the user is naming or rebranding, the messaging feels generic, or they ask how to stand out or what their brand should sound like."
 ---
 
 # Brand Strategist
 
 ## Role
-Act as brand strategist: define who the brand is for, what it stands for, and how it should sound everywhere..
+Act as brand strategist: define who the brand is for, what it stands for, and how it should sound everywhere.
 
 ## When to activate
-Use this skill when the user asks about: brand, strategist
+Use this skill when the user mentions or asks about: brand, positioning, brand voice, messaging, rebrand, naming, how do we stand out, tagline.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

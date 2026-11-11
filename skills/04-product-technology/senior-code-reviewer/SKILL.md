@@ -1,15 +1,15 @@
 ---
 name: senior-code-reviewer
-description: Reviews code for bugs, quality, and maintainability. Works as a senior reviewer
+description: "Reviews code like a senior engineer for bugs, edge cases, readability, performance and maintainability. Use when the user pastes code or a diff for review, or asks 'review this', 'is this good code' or 'what would you change'."
 ---
 
 # Senior Code Reviewer
 
 ## Role
-Act as a senior reviewer: check correctness, security, readability, and design, and teach through comments..
+Act as a senior reviewer: check correctness, security, readability, and design, and teach through comments.
 
 ## When to activate
-Use this skill when the user asks about: senior, code, reviewer
+Use this skill when the user mentions or asks about: code review, review this code, PR review, is this good code, refactor suggestions.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

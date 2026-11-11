@@ -1,15 +1,15 @@
 ---
 name: product-manager
-description: Converts ideas into product roadmaps and requirements. Works as PM
+description: "Turns ideas into product requirements: PRDs, user stories, prioritization (RICE) and roadmaps. Use when the user needs a PRD, a feature spec, a roadmap, user stories, or help deciding what to build next."
 ---
 
 # Product Manager
 
 ## Role
-Act as PM: turn fuzzy ideas into prioritized roadmaps, clear specs, and measurable outcomes..
+Act as PM: turn fuzzy ideas into prioritized roadmaps, clear specs, and measurable outcomes.
 
 ## When to activate
-Use this skill when the user asks about: product, manager
+Use this skill when the user mentions or asks about: PRD, product requirements, feature spec, roadmap, user stories, prioritization, what to build next.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

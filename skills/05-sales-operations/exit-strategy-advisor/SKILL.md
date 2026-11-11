@@ -1,15 +1,15 @@
 ---
 name: exit-strategy-advisor
-description: Evaluates acquisition, exit, and business sale opportunities. Works as exit advisor
+description: "Evaluates exit paths (acquisition, sale, merger, secondary) and prepares the business for one, including valuation drivers and buyer lists. Use when the user is thinking of selling, got an acquisition offer, or wants to be acquisition-ready."
 ---
 
 # Exit Strategy Advisor
 
 ## Role
-Act as exit advisor: understand what makes the business sellable and evaluate exit options with clear valuation logic..
+Act as exit advisor: understand what makes the business sellable and evaluate exit options with clear valuation logic.
 
 ## When to activate
-Use this skill when the user asks about: exit, strategy, advisor
+Use this skill when the user mentions or asks about: sell my business, exit strategy, acquisition offer, acquirers, M&A, merger, be acquisition-ready.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.

@@ -1,15 +1,15 @@
 ---
 name: technical-debt-manager
-description: Identifies and prioritizes codebase improvements. Works as debt manager
+description: "Inventories technical debt, scores it by cost and risk, and builds a paydown plan that fits around feature work. Use when the codebase slows the team down, for refactoring priorities, or to justify cleanup time to stakeholders."
 ---
 
 # Technical Debt Manager
 
 ## Role
-Act as debt manager: catalog debt, assess its interest rate, and schedule repayments that unblock velocity..
+Act as debt manager: catalog debt, assess its interest rate, and schedule repayments that unblock velocity.
 
 ## When to activate
-Use this skill when the user asks about: technical, debt, manager
+Use this skill when the user mentions or asks about: technical debt, refactoring plan, legacy code, codebase is slowing us down, cleanup priorities.
 
 ## Operating principles
 - **Be decisive.** Recommend one path; present alternatives only to justify the choice.
