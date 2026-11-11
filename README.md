@@ -7,7 +7,7 @@
 ![Skills](https://img.shields.io/badge/skills-55-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-![Claude Executive Suite banner](assets/banner.svg)
+![Claude Executive Suite banner](assets/banner.png)
 
 ---
 
@@ -83,25 +83,25 @@ https://github.com/Neyam-OpenSc/claude-skills-executive-suite
 install skill
 ```
 
-### Option 3: Install script (plain `/cfo-agent` names, no namespace)
+### Option 3: Copy the folders (plain `/cfo-agent` names, no namespace)
 
-The installers copy every skill into `~/.claude/skills/` (set `CLAUDE_SKILLS_DIR` to change the location). They're safe to re-run to update.
+Clone the repo and copy the skill folders into `~/.claude/skills/`. Run the same commands again later to update.
 
 **macOS / Linux:**
 ```bash
 git clone https://github.com/Neyam-OpenSc/claude-skills-executive-suite.git
-cd claude-skills-executive-suite
-bash install/install.sh
+mkdir -p ~/.claude/skills
+cp -R claude-skills-executive-suite/skills/*/* ~/.claude/skills/
 ```
 
 **Windows (PowerShell):**
 ```powershell
 git clone https://github.com/Neyam-OpenSc/claude-skills-executive-suite.git
-cd claude-skills-executive-suite
-powershell -ExecutionPolicy Bypass -File install/install.ps1
+New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
+Copy-Item -Path claude-skills-executive-suite\skills\*\* -Destination "$HOME\.claude\skills" -Recurse -Force
 ```
 
-**Manual install:** copy any skill folder from `skills/<category>/` into `~/.claude/skills/`.
+**One skill only:** copy a single folder from `skills/<category>/` into `~/.claude/skills/`. The `install/` folder also has installer scripts, which you can read and run yourself (see [Getting Started](docs/getting-started.md)).
 
 **Team install:** copy skills into `.claude/skills/` inside your project repo and commit them, so everyone on the team gets the same skills.
 
